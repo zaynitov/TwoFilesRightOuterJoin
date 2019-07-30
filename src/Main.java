@@ -3,7 +3,7 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.stream.*;
 
-
+//сделай меньше пробелов/ неовзможно читать
 public class Main {
 
 
@@ -92,7 +92,7 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-
+// слева пишется интерфес/ справа реализация(почитай в интернете почепму) (вместо ArrayList -> List)
 
         ArrayList<String> linesOfFirstFile = getInfo(nameOfFirstFile);
         ArrayList<String> linesOfSecondFile = getInfo(nameOfSecondFile);
